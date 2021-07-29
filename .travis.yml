@@ -22,6 +22,7 @@ jobs:
         chrome: stable
         apt:
           packages:
+            - chromium-chromedriver
             - python3-selenium
       before_script:
         - LATEST_CHROMEDRIVER_VERSION=`curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE"`
